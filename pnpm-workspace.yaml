@@ -14,4 +14,4 @@ packages:
   - 'webpack'
   - 'assemble-release-plan'
   - 'packages/runtime-plugins/*'
-  - 'packages/angular-esbuild/*'
+  - 'apps/angular-esbuild/*'
