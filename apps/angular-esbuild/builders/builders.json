@@ -1,0 +1,9 @@
+{
+  "builders": {
+    "custom-esbuild": {
+      "implementation": "./src/lib/custom-esbuild/builder",
+      "schema": "./src/lib/custom-esbuild/schema.json",
+      "description": "An Angular builder for using a custom esbuild configuration."
+    }
+  }
+}

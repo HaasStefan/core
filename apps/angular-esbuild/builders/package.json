@@ -1,0 +1,16 @@
+{
+  "name": "@angular-esbuild/builders",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/src/index.js",
+  "builders": "builders.json",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@angular-devkit/architect": "0.2100.2"
+  }
+}
