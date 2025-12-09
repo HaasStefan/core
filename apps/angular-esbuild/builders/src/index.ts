@@ -1,1 +1,1 @@
-export * from './lib/custom-esbuild/builder';
+export * from './lib/module-federation-esbuild/builder';

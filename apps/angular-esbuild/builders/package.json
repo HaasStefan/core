@@ -11,6 +11,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@angular-devkit/architect": "0.2100.2"
+    "@angular-devkit/architect": "0.2100.2",
+    "@angular-devkit/core": "^21.0.0",
+    "rxjs": "~7.8.0",
+    "@angular/build": "^21.0.2",
+    "@module-federation/esbuild": "workspace:*"
   }
 }
