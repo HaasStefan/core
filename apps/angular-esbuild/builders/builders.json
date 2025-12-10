@@ -1,7 +1,7 @@
 {
   "builders": {
-    "custom-esbuild": {
-      "implementation": "./src/lib/module-federation-esbuild/builder",
+    "module-federation-esbuild": {
+      "implementation": "./dist/lib/module-federation-esbuild/builder",
       "schema": "./src/lib/module-federation-esbuild/schema.json",
       "description": "An Angular builder for using esbuild with Module Federation"
     }

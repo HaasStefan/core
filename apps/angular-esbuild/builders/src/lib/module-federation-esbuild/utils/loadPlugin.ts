@@ -11,5 +11,7 @@ export async function loadModuleFederationPluginAsync(
     path.resolve(workspaceRoot, configPath)
   );
 
-  return moduleFederationPlugin(moduleFederationConfig.default);
+  const config = moduleFederationConfig.default || moduleFederationConfig;
+
+  return moduleFederationPlugin(config);
 }

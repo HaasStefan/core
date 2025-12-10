@@ -1,9 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
-  "cli": {
-    "packageManager": "npm"
-  },
   "newProjectRoot": "projects",
   "projects": {
     "host": {
@@ -14,10 +11,12 @@
       "prefix": "app",
       "architect": {
         "build": {
-          "builder": "@angular/build:application",
+          "builder": "@angular-esbuild/builders:module-federation-esbuild",
           "options": {
+            "moduleFederationConfigPath": "federation.config.js",
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
+            "externalDependencies": ["@module-federation/webpack-bundler-runtime"],
             "assets": [
               {
                 "glob": "**/*",

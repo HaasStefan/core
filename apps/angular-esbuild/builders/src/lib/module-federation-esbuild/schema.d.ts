@@ -1,8 +1,4 @@
-import {
-  ApplicationBuilderOptions,
-  DevServerBuilderOptions,
-  UnitTestBuilderOptions,
-} from '@angular/build';
+import { ApplicationBuilderOptions } from '@angular/build';
 
 export type PluginConfig =
   | string

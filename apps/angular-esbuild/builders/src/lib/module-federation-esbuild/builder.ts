@@ -12,15 +12,12 @@ export function buildCustomEsbuildApplication(
   context: BuilderContext,
 ) {
   return defer(async () => {
-    console.log('Loading Module Federation plugin...');
     const codePlugins = [
       await loadModuleFederationPluginAsync(
         options.moduleFederationConfigPath,
         context.workspaceRoot,
       ),
     ];
-
-    console.log('Module Federation plugin loaded.');
 
     return { codePlugins } as ApplicationBuilderExtensions;
   }).pipe(
