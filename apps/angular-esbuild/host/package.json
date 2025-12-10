@@ -39,7 +39,6 @@
     "typescript": "~5.9.2",
     "vitest": "^4.0.8",
     "@angular-esbuild/builders": "workspace:*",
-    "@module-federation/esbuild": "workspace:*",
-    "module-federation/webpack-bundler-runtime": "workspace:*"
+    "@module-federation/esbuild": "workspace:*"
   }
 }

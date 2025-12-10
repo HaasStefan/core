@@ -620,6 +620,9 @@ importers:
       '@module-federation/esbuild':
         specifier: workspace:*
         version: link:../../../packages/esbuild
+      '@module-federation/webpack-bundler-runtime':
+        specifier: workspace:*
+        version: link:../../../packages/webpack-bundler-runtime
       rxjs:
         specifier: ~7.8.0
         version: 7.8.2

@@ -16,7 +16,6 @@
             "moduleFederationConfigPath": "federation.config.js",
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
-            "externalDependencies": ["@module-federation/webpack-bundler-runtime"],
             "assets": [
               {
                 "glob": "**/*",
